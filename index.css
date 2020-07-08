@@ -1,0 +1,171 @@
+
+body{
+    margin: 0%;
+}
+
+.navegador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: 15%;
+    margin: 0px;
+}
+
+.navegador a{
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 1.5em;
+}
+
+.titulo-nav {
+    text-align: left;
+    font-family: 'Notable', sans-serif;
+    margin-right: 50%;
+    font-size: 2em;
+}
+
+.festival {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+header {
+    background-image: url(./img/alemania.jpg);
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo-festival {
+    text-align: right;
+    font-size: 3.5em;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 8%;  
+}
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 20px;
+    margin-top: 50px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    text-align: center;
+}
+
+.foto {
+    height: 40%;
+}
+
+.titulo-pelicula {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;    
+}
+
+.texto-pelicula {
+    text-align: justify;
+    justify-content: center;
+}
+
+.banner {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 15% 0 15%;
+    background-color: black;
+    animation-name: color;
+    animation-duration: 4s;
+}
+
+@keyframes color {
+    from { background-color: black;}
+    to {background-color: white;}
+}
+
+.texto-banner {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    animation-name: color-1;
+    animation-duration: 4s;
+}
+
+@keyframes color-1 {
+    from {color: white}
+    to {color: black}
+}
+
+.contenedor {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 3% 0 1% 0;
+}
+
+ .seccion1 {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 3%;
+}
+
+.foto-1 {
+    height: 38vh;    
+}
+
+.adorno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filigrana {
+    display: inline-block;
+    width: 25%;
+    margin: 2%;
+}
+
+.video {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.filme {
+    padding: 1% 3% 5% 2%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    height: 10%;
+}
+
+.texto-footer {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+input {
+    margin: 0 50px 0 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1em;
+}
+
+.button {
+    font-family: 'Bebas Neue', cursive;
+    color: grey;
+    font-size: 1.1em;
+}

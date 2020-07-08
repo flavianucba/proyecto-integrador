@@ -1,0 +1,12 @@
+Hola chicos!
+
+Hasta aquí llegué. Hay cosas que no puedo arreglar, por ejemplo:
+
+- la foto de la película "Paisa" cuando le pongo la misma clase que las demás (Foto) se descompagina todo. 
+
+- la filigrana (está arriba de los videos) quería subirla unpoco más pero tampoco pude. No sé si es el margin del div de arriba... no logro darme cuenta.
+
+- me hubiera gustado hacerle algún truquito más (alguna animación o transición) pero me parece que el sitio mucho no daba (esto del neorrealismo italiano es bastante aburrido jaja) y tampoco tuve tanto tiempo. 
+
+Aguardo novedades. Gracias!!
+

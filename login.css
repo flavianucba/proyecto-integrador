@@ -1,0 +1,54 @@
+.estetica{
+    width: 20%;
+    height: 50%;
+    background-color: #EBE6E5;  
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    color: black;
+    margin: 10px;
+}
+
+.login{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.boton{
+    background-color:black;
+    color: white;
+    border-color: grey;
+    margin-top: 8%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+
+}
+
+.link{
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.imagenfondo{
+    background-image: url(./img/fondo.jpg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+ 
+.imagenlogin{
+    text-align: center;
+    width: 28%;
+} 
